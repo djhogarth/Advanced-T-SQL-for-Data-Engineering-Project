@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Advanced SQL Project for Data Engineering", "Advanced SQL Project for Data Engineering\Advanced SQL Project for Data Engineering.ssmssqlproj", "{47098D13-E340-439F-85B8-26652A105A25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47098D13-E340-439F-85B8-26652A105A25}.Default|Default.ActiveCfg = Default
+		{6E4EB97D-44AC-484A-ADAC-CB01AD2F8EE7}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D451904-735C-4DA4-ABC1-849074BDA605}
+	EndGlobalSection
+EndGlobal
