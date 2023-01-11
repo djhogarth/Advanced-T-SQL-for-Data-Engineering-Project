@@ -10,7 +10,7 @@ WHERE CD.HARDSHIP_INDEX = 98;
 SELECT CRIME.CASE_NUMBER, CRIME.PRIMARY_TYPE, SCHOOLS.COMMUNITY_AREA_NAME  FROM dbo.ChicagoCrimeData AS CRIME INNER JOIN dbo.ChicagoPublicSchools AS SCHOOLS 
 ON CRIME.COMMUNITY_AREA_NUMBER = SCHOOLS.COMMUNITY_AREA_NUMBER WHERE CRIME.LOCATION_DESCRIPTION LIKE '%SCHOOL%';
 --	I create a view that enables users to select just the school name and the icon fields from the CHICAGO_PUBLIC_SCHOOLS table. 
---	By providing a view, I ensue that users cannot see the actual scores given to a school, just the icon associated with their score.
+--	By providing a view, I ensure that users cannot see the actual scores given to a school, just the icon associated with their score.
 
 IF EXISTS (
 	SELECT name 
